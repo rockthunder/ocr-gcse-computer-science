@@ -1,0 +1,21 @@
+{
+  "name": "ocr-gcse-computer-science",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "OCR GCSE Computer Science (J277) revision app: quick-fire diagnostic, topic deep dives and timed exam simulations.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.3.0",
+    "vite": "^8.3.8"
+  }
+}
