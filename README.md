@@ -1,5 +1,7 @@
 # J277 Exam Trainer: OCR GCSE Computer Science
 
+**Live app: https://rockthunder.github.io/ocr-gcse-computer-science/**
+
 A React app for revising **OCR GCSE (9–1) Computer Science J277**. It covers both papers:
 **J277/01 Computer systems** and **J277/02 Computational thinking, algorithms and programming**.
 
@@ -26,6 +28,8 @@ npm run dev        # local dev server
 npm run build      # production build in dist/ (relative paths, so it can be hosted anywhere)
 npm run validate   # checks the question banks and that generated papers hit their target marks
 ```
+
+Every push to `main` is validated, built and deployed to GitHub Pages by `.github/workflows/deploy.yml`.
 
 ## Project layout
 
